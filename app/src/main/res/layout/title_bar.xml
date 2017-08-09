@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/add_top_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="45dp"
+    android:layout_alignParentTop="true"
+    android:background="#202530">
+
+    <LinearLayout android:id="@+id/backup"
+        android:layout_width="@dimen/title_height"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:gravity="left|center"
+        android:paddingLeft="10dp"
+        android:onClick="isUp"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/arrow" />
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/disp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="@string/title_home" />
+
+
+    <LinearLayout android:id="@+id/scan"
+        android:layout_width="@dimen/title_height"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:onClick="isScan"
+        android:visibility="invisible"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/titleRightImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:src="@mipmap/push_infor" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/titleRightTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/close"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

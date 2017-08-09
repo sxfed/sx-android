@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cloudwalk_bg"
+    android:orientation="vertical"
+    android:paddingLeft="13dp"
+    android:paddingRight="13dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="3" >
+
+        <ImageView
+            android:id="@+id/iv_tianj1"
+            android:layout_width="157dp"
+            android:layout_height="186dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/tianjia"
+             />
+
+        <ImageView
+            android:id="@+id/iv_tianj2"
+            android:layout_width="157dp"
+            android:layout_height="186dp"
+             
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/tianjia" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="2"
+        android:background="@android:color/black"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/normalText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="相似度"
+            android:textColor="@color/red" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/red" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/iv_head"
+                android:layout_width="wrap_content"
+                android:layout_height="84dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/tv_info"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/iv_head"
+               
+                
+                android:gravity="center"
+                android:lineSpacingExtra="5dp"
+               
+                android:textColor="@color/red"
+                android:textSize="@dimen/BiggerTextSize" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <cn.sxf.xls.view.face.AutoBgButton
+            android:id="@+id/bt_compare"
+            style="@style/normalTextwhite"
+            android:layout_width="fill_parent"
+            android:layout_height="44.5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/cloudwalk_red_btn_selector"
+            android:text="人脸比对" />
+    </LinearLayout>
+
+</LinearLayout>

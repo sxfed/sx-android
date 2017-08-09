@@ -1,0 +1,20 @@
+{
+  "name": "sx-app",
+  "version": "1.0.0",
+  "description": "react native mix app",
+  "main": "index.android.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd-mobile": "^1.4.1",
+    "react": "^16.0.0-alpha.6",
+    "react-native": "^0.44.2",
+    "react-navigation": "^1.0.0-beta.11"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.2.1"
+  }
+}

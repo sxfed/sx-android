@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="cn.sxf.xls.view.MainAty">
+
+    <FrameLayout
+        android:id="@+id/main_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="75dp" >
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/main_radiogroup"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/main_rg_bg"
+        android:checkedButton="@+id/ebook_radio0"
+        android:orientation="horizontal" >
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/main_radio0"-->
+            <!--style="@style/TabTheme"-->
+            <!--android:background="@drawable/rb_home_selector" />-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/main_radio1"-->
+            <!--style="@style/TabTheme"-->
+            <!--android:background="@drawable/rb_rank_selector" />-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/main_radio2"-->
+            <!--style="@style/TabTheme"-->
+            <!--android:background="@drawable/rb_classify_selector" />-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/main_radio3"-->
+            <!--style="@style/TabTheme"-->
+            <!--android:background="@drawable/rb_myinfo_selector" />-->
+
+    </RadioGroup>
+
+</RelativeLayout>

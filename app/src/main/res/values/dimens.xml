@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 标题高和宽 -->
+    <dimen name="title_height">50.0dp</dimen>
+
+
+    <!-- login -->
+    <dimen name="input_height">45dp</dimen>
+    <dimen name="input_height_divider">40dp</dimen>
+    <dimen name="input_height_pad">2dp</dimen>
+    <dimen name="edit_draw_margin">5dp</dimen>
+    <dimen name="edit_inner_pading">8dp</dimen>
+
+    <dimen name="scan_photo_parent">200.0dp</dimen>
+    <dimen name="view_small_padding">1dp</dimen>
+    <dimen name="view_padding">6dp</dimen>
+
+    <!-- 九宫格表格尺寸 -->
+    <dimen name="gride_pads">20.0dp</dimen>
+    <dimen name="gride_top">8.0dp</dimen>
+    <dimen name="lab_fontsize">12.0sp</dimen>
+
+</resources>

@@ -1,0 +1,58 @@
+{
+    "menuList": [
+        {
+            "title": "native-idcard",
+            "icon": "ios",
+            "type": "00",
+            "url": "RNModule",
+            "platform": ""
+        },
+        {
+            "title": "r-n模块",
+            "icon": "react",
+            "type": "01",
+            "url": "RNModule",
+            "platform": ""
+        },
+        {
+            "title": "web模块",
+            "icon": "web",
+            "type": "02",
+            "url": "http://172.16.40.34:8010/merch/merchType?orgNo=0958416327&origin=tss&roleIdentity=ROLE_IDENTITY_ADMIN&userCode=110665",
+            "platform": ""
+        },
+        {
+            "title": "native-face",
+            "icon": "ios",
+            "type": "03",
+            "url": "http://172.16.40.34:8010/merch/merchType?orgNo=0958416327&origin=tss&roleIdentity=ROLE_IDENTITY_ADMIN&userCode=110665",
+            "platform": ""
+        },
+        {
+            "title": "web模块",
+            "icon": "web",
+            "type": "02",
+            "url": "http://172.16.40.34:8010/merch/merchType?orgNo=0958416327&origin=tss&roleIdentity=ROLE_IDENTITY_ADMIN&userCode=110665",
+            "platform": ""
+        },
+        {
+            "title": "web模块",
+            "icon": "web",
+            "type": "02",
+            "url": "http://172.16.40.34:8010/merch/merchType?orgNo=0958416327&origin=tss&roleIdentity=ROLE_IDENTITY_ADMIN&userCode=110665",
+            "platform": ""
+        },
+        {
+            "title": "web模块",
+            "icon": "web",
+            "type": "02",
+            "url": "http://172.16.40.34:8010/merch/merchType?orgNo=0958416327&origin=tss&roleIdentity=ROLE_IDENTITY_ADMIN&userCode=110665",
+            "platform": ""
+        }
+    ],
+    "cycleList": [
+        "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1496664493003&di=5adf6c03fa2b446e48bca29344e07b32&imgtype=jpg&src=http%3A%2F%2Fimg4.imgtn.bdimg.com%2Fit%2Fu%3D2369900843%2C1093290712%26fm%3D214%26gp%3D0.jpg",
+        "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1496664492408&di=13d4992c91d1f59e11fc46e72f8e78a2&imgtype=0&src=http%3A%2F%2Fpic.jschina.com.cn%2F0%2F21%2F38%2F92%2F21389202_143444.png",
+        "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1496664492408&di=8f02ae42f8a2ed1c074660374ecfd228&imgtype=0&src=http%3A%2F%2Fupload.art.ifeng.com%2F2015%2F0811%2F1439260959533.jpg"
+    ]
+}

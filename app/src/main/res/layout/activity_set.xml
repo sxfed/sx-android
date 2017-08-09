@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/shouye"
+              android:orientation="vertical"
+              android:paddingLeft="13dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingRight="13dp">
+
+        <!-- 比对服务器设置 -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/normalTextwhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="服务器地址:"/>
+
+            <EditText
+                android:id="@+id/et_faceserver"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/normalTextwhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    人脸阈值:"/>
+
+            <EditText
+                android:id="@+id/et_yuz"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:singleLine="true">
+            </EditText>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!-- 认证服务器设置 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            style="@style/normalTextwhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="算法版本号:"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/et_version"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:focusable="false"
+            android:minHeight="80dp"
+            >
+        </EditText>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <cn.sxf.xls.view.face.AutoBgButton
+            android:id="@+id/bt_save"
+            style="@style/normalTextwhite"
+            android:layout_width="fill_parent"
+            android:layout_height="44.5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cloudwalk_red_btn_selector"
+            android:text="保存"/>
+
+    </LinearLayout>
+
+</LinearLayout>

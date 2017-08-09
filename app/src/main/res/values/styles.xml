@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- tab lab style -->
+    <style name="TabTheme" parent="AppTheme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0.0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- login input style -->
+
+    <style name="login_style" parent="AppTheme">
+        <item name="android:layout_height">@dimen/input_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginLeft">@dimen/input_height_divider</item>
+        <item name="android:layout_marginRight">@dimen/input_height_divider</item>
+        <item name="android:padding">@dimen/input_height_pad</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@mipmap/input_background</item>
+    </style>
+
+    <!-- edit style -->
+    <style name="edit_style" parent="AppTheme">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">@dimen/edit_draw_margin</item>
+        <item name="android:drawablePadding">@dimen/edit_inner_pading</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+    </style>
+
+    <!-- Application theme. -->
+    <style name="FaceTheme" parent="AppBaseTheme">
+    </style>
+
+</resources>

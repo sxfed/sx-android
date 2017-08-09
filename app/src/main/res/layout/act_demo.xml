@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_bar" />
+    <Button
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="用于获取图片" />
+
+    <Button
+        android:id="@+id/getjson"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="GET请求数据" />
+
+    <Button
+        android:id="@+id/postjson"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="POST请求数据" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="获取本地文件数据" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="动态添加导航标签" />
+
+    <ImageView
+        android:id="@+id/testImageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">sx-app</string>
+    <string name="close">关闭</string>
+    <string name="exit_message">再按一次返回桌面</string>
+
+
+    <string name="title_home">tab1</string>
+    <string name="title_merc">tab2</string>
+    <string name="title_leader">tab3</string>
+    <string name="title_myinfo">tab4</string>
+    <string name="webview_test">webview测试</string>
+
+
+
+    <string name="permission_granted_warning">overlay permission not granted</string>
+    <string name="permission_call_permmit">权限被允许</string>
+    <string name="permission_call_refuse">权限被拒绝</string>
+    <string name="loadding_start">开始加载……</string>
+    <string name="loadding_end">加载结束!</string>
+
+    <!-- 人脸识别 -->
+    <string name="face_name">人脸SDK</string>
+    <string name="copyright">Copyright© 2016 云从科技 版权所有V   </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ocr_tip">请横握手机拍照,并将身份证置于框内</string>
+    <string name="ocr_direction_wrong">请选择正确的身份证图片!</string>
+    <string name="ocr_adjust_direction">请选择身份证图片!</string>
+    <string name="ocrphoto_fail">请选择身份证图片!</string>
+    <string name="ocr_loading">身份证识别中….</string>
+    <string name="identify_loading">人脸识别中….</string>
+    <string name="addface_loading">人脸创建中….</string>
+    <string name="attr_loading">人脸属性分析中….</string>
+
+
+
+
+</resources>

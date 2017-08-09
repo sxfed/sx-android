@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grid_back"
+    android:orientation="vertical" >
+
+    <cn.sxf.xls.view.custom.ActiveGrideView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="1.0dp"
+        android:verticalSpacing="1.0dp"
+        android:numColumns="4"
+        android:scrollbars="none"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:listSelector="@null"
+        android:stretchMode="columnWidth" />
+
+</RelativeLayout>

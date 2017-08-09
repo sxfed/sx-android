@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="cn.sxf.xls.view.MainAty">
+
+    <LinearLayout android:id="@+id/titleArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5F5F5"
+        android:orientation="vertical" >
+
+        <include layout="@layout/title_bar" />
+
+        <FrameLayout
+        android:id="@+id/layout_viewager_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/scan_photo_parent" >
+            <include layout="@layout/banner" />
+        </FrameLayout>
+
+        <ScrollView
+            android:id="@+id/extra_area"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:layout_below="@+id/layout_viewager_content"
+            android:scrollbars="none" >
+            <include layout="@layout/gride" />
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>
